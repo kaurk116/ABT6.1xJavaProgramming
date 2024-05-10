@@ -12,14 +12,13 @@ public class lab0092 {
         };
         int array_max_value = 0;
         for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length; i++) {
+            for (int j = 0; j < array.length; j++) {
                 out.println("array value" + array[i][j]);
                 if (array[i][j] >= array_max_value) {
-                    array_max_value = array[i][j];
+                    array_max_value = array[i][0];
                     System.out.println("maximum value in array is :" + array_max_value);
-                } else {
-                    System.out.println("nop");
                 }
+                System.out.println("nop");
             }
         }
     }
