@@ -7,7 +7,6 @@ public class lab0087 {
                 {12,13},
                 {22,23},
                 {33,34}
-
         };
         for (int i = 0; i < array2d.length; i++) {
             for (int j = 0; j < array2d[i].length; j++) {
