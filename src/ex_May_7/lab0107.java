@@ -9,12 +9,13 @@ public class lab0107 {
         pief();
         stringf();
         String [] name ={"karam" ,"kaur" ,"Aakash" ,"saini"};
+        System.out.println(intf());
     }
 
        //define function
         static int intf () {
             return 10;
-        }
+    }
 
         static byte bytef () {
             return 127;
@@ -27,13 +28,5 @@ public class lab0107 {
         }
         static String [] name(){
         return name();
-
-
-
-
-
     }
-
-    private class name {
     }
-}
