@@ -1,0 +1,8 @@
+//What is inheritance
+//Inherit Attributes and behaviours form the perent ,grand parent
+//Superclass |Parents Class |Derives Class
+
+//Parents ---Child
+
+//Child extends Parents{}
+//Extend keyword --parents's Attribute are avaiable to the child
