@@ -13,19 +13,19 @@ public class lab0103 {
 
         int sum =sum_is(num1 ,num2);
         int sub =sub_is(num1 ,num2);
-        int diff =div_is(num1 ,num2);
+        int div =div_is(num1 ,num2);
         int mult =mult_is(num1 , num2);
 
-        System.out.println(sum);
-        System.out.println(sub);
-        System.out.println(diff);
-        System.out.println(mult);
+        System.out.println("sum is " +sum);
+        System.out.println("Sub is " +sub);
+        System.out.println("Div is" +div);
+        System.out.println("Mult is " +mult);
 
     }
     static int sum_is(int num1,  int num2 ) {
         return num1 +num2;}
     static int sub_is(int num1, int num2) {
-        return  num1 * num2;
+        return  num1 - num2;
     }
     static int div_is(int num1,  int num2) {
         return  num1 / num2;

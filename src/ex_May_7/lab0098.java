@@ -5,11 +5,16 @@ public class lab0098 {
         //Function are some code that performed
         //Function are defined and recall
         //return something
-        hey();
-        hey();
+        sayhey(); //calling
+        sayhi();
     }
 
-    static void hey() {
+    private static void sayhi() { //define function
+        System.out.println("Hello, How Are you");
+
+    }
+
+    static void sayhey() {
         System.out.println("Hello, How Are you");
     }
 }

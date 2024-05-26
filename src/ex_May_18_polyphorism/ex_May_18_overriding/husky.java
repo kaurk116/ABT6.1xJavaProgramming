@@ -1,4 +1,4 @@
-package ex_May_18_poly.ex_May_18_overriding;
+package ex_May_18_polyphorism.ex_May_18_overriding;
 
 public class husky  extends dog{
     void bark(){

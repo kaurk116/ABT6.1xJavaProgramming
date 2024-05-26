@@ -1,4 +1,4 @@
-package ex_May_18_poly.ex_May_18_overriding;
+package ex_May_18_polyphorism.ex_May_18_overriding;
 
 public class lab0121 {
     public static void main(String[] args) {

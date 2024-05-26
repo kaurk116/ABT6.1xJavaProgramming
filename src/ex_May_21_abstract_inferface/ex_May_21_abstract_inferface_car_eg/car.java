@@ -1,6 +1,6 @@
-package ex_May_21_abstract_inharitance_inferface;
+package ex_May_21_abstract_inferface.ex_May_21_abstract_inferface_car_eg;
 
-public class car implements engine,brake{
+public class car implements engine, brake {
     @Override
     public void applybrake() {
         System.out.println("Apply brake");

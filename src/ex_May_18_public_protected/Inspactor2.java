@@ -1,4 +1,4 @@
-package ex_May_18_police;
+package ex_May_18_public_protected;
 
 public class Inspactor2 {
     public static void main(String[] args) {

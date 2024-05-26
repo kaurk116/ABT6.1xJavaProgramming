@@ -1,4 +1,4 @@
-package ex_May_21_abstract_inharitance;
+package ex_May_21_abstract_inferface;
 
 public class lab0127 {
     public static void main(String[] args) {

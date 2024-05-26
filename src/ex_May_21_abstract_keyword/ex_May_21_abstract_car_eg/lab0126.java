@@ -1,4 +1,4 @@
-package ex_May_21_abstract_inharitance_carex;
+package ex_May_21_abstract_keyword.ex_May_21_abstract_car_eg;
 
 public class lab0126 {
     public static void main(String[] args) {

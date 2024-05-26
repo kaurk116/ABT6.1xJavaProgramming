@@ -1,8 +1,6 @@
 package ex_May_14;
 
-import com.sun.tools.javac.Main;
-
-public class lab0112 {
+public class lab0112_ATBperson {
     public static void main(String[] args) {
 
 
