@@ -1,4 +1,4 @@
-package ex_May_16_Inharitance;
+package ex_May_16_hearichal_Inharitance;
 
 public class RealTimeinharitance {
     public static void main(String[] args) {

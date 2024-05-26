@@ -1,4 +1,4 @@
-package ex_May_16;
+package ex_May_16_single_Inharitance;
 
 public class lab0114_lang {
     public static void main(String[] args) {

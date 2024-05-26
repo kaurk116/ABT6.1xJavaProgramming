@@ -1,4 +1,4 @@
-package ex_May_18;
+package ex_May_18_super_inheritance;
 
 public class lab0116 {
 

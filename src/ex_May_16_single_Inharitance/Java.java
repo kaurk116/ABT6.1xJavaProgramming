@@ -1,4 +1,4 @@
-package ex_May_16;
+package ex_May_16_single_Inharitance;
 
 public class Java extends Programming{
     String newfeature;
