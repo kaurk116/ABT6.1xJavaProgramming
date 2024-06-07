@@ -2,16 +2,20 @@ package ex_june_01_set;
 
 import java.time.Duration;
 
-public class lab0_THW1 {
+public class lab0173_THW1 {
     public static void main(String[] args) {
-        Thread th =new Thread();
-        wrkerth1 w1 = new wrkerth1();
+        Thread th =new Thread("worker1");
+        //thread no 1 -calling run method line 37
+        wrkerth1 w1 = new wrkerth1("threadGroup", "worker2");
         w1.start();
+        w1.run();
 
-        wrkerth1 w2 = new wrkerth1();
-        wrkerth1 w21 = w2;
-        w21.start();
+// thread no 2  call run method line 37
+        wrkerth1 w2 = new wrkerth1("thread1","worker3");
+        w2.start();
+        w2.run();
 
+ //main thread
         for (int i = 0; i < 5; i++) {
             try{
                 System.out.println(Thread.currentThread().getName());
@@ -26,6 +30,10 @@ public class lab0_THW1 {
 }
 
     class  wrkerth1 extends Thread{
+    wrkerth1(String threadGroup, String name){
+              // super(threadGroup,name);
+    }
+
         @Override
         public void run() {
             for (int i = 0; i < 5; i++) {

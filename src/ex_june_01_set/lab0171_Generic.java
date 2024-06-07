@@ -1,6 +1,6 @@
 package ex_june_01_set;
 
-public class lab0171_generic {
+public class lab0171_Generic {
     public static void main(String[] args){
         System.out.println(maxvalue(12,45,65));
         System.out.println(maxvalue(1.2, 1.3, 1.4 ));

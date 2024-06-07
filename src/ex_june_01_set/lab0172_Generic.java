@@ -1,6 +1,6 @@
 package ex_june_01_set;
 
-public class lab0172_gg {
+public class lab0172_Generic {
 
     public static void main(String[] args) {
         temp(23);

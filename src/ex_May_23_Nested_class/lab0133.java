@@ -1,4 +1,4 @@
-package ex_May_Nested_class;
+package ex_May_23_Nested_class;
 
 public class lab0133 {
     public static void main(String[] args) {
